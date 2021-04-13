@@ -147,12 +147,15 @@
  
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
     }
+    
         
       
       
     
     .block {
+      background-color: aliceblue;
     border: 1px solid black;
     width: 33%;
     align-items: center;
@@ -164,15 +167,23 @@
     
     .art-img {
         height: 120px;
-        width:200px;
+        width: 120px;
         float: left;
         padding: 5px;
     }
     .img-text{
         display: inline;
-        padding:5px;
+        padding: 5px;
+      
+        
     }
     body {
       max-width: 1300px;
       margin: 0 auto;
+    }
+    .main-footer{
+      padding-left: 20px;
+      height:60px ;
+      padding-top: 10px;
+      font-size: smaller;
     }
