@@ -193,3 +193,24 @@
       padding-top: 10px;
       font-size: smaller;
     }
+    .articles-h {
+      text-decoration: none;
+    }
+    .top-box{
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .articles-container{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .blocks {
+      background-color: aliceblue;
+    border: 1px solid black;
+  
+    height: 200px;
+    
+    padding: 10px;
+    } 
