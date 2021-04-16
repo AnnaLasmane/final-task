@@ -195,10 +195,13 @@
     }
     .articles-h {
       text-decoration: none;
+      color: blueviolet;
     }
     .top-box{
       margin-top: 10px;
       margin-bottom: 20px;
+    
+     
     }
 
     .articles-container{
