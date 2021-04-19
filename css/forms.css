@@ -1,0 +1,50 @@
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.form-select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+form {
+    background-color: aliceblue;
+}
+
+button {
+    font-size: 12px;
+    padding: 10px 24px;
+    ;
+    margin: 8px 0;
+}
+
+.ops {
+    margin-left: 10px;
+}
+
+.form-check-label {
+    font-size: small;
+}
+
+.space {
+    background-color: aliceblue;
+    color: aliceblue;
+}
+
+p {
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
