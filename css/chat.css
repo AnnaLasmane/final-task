@@ -34,3 +34,7 @@ p {
     padding-top: 5px;
     font-size: 18px;
 }
+
+.text-secondary {
+    color: gray;
+}

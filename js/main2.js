@@ -3,9 +3,9 @@ $('#send-message').submit(function(event) {
     const username = $('#username-input').val();
     const message = $('#message-input').val();
     if ($('#username-input').val() === '') {
-        alert('Please enter username!')
+        alert('Enter username!')
     } else if ($('#message-input').val() === '') {
-        alert('Pleaase enter message!')
+        alert('Enter message!')
     } else {
         const d = new Date();
         const day = d.getDate();
@@ -16,11 +16,11 @@ $('#send-message').submit(function(event) {
         const newTextBox = `
     <li>
         <div class="card bg-secondary text-light">
-            <div class="card-header fs-6 text-dark">
+            <div class="card-header fs-5 text-dark">
                 <span id="name" class="me-5">${username}</span>
                     <span id="date">${day}.${month}.${year} ${hour}:${mins}</span>
                 </div>
-            <div class="card-body m-0 fs-6">
+            <div class="card-body m-0 fs-7">
                 <div class="">
                     <p>${message}</p>
                 </div>
