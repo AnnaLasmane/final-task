@@ -1,56 +1,7 @@
-.inner-conatainer {
-    background-color: aliceblue;
-    width: 100%;
-    height: 100px;
-    overflow-y: auto;
+#chat-window {
+    min-height: 400px;
+    max-height: 400px;
+    list-style-type: none;
     padding: 10px;
-    border-bottom: 1px solid black;
-    box-sizing: border-box;
-}
-
-.text {
-    font-size: 13px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-.row-chat {
-    max-height: 700px;
-    background-color: aliceblue;
-}
-
-#msg {
-    height: 150px;
-    width: 800px;
-}
-
-textarea {
-    width: 80%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
-}
-
-#uname {
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
-}
-
-button {
-    padding: 12px 20px;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-}
-
-form {
-    margin-left: 10px;
+    background-color: blanchedalmond;
 }
