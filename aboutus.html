@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV series to watch</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="css/chat.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+
+        <a href="./main.page.html" class="logo"> ANNA'S TV SERIES  </a>
+        <div class="header-right">
+            <a href="main.page.html">Home</a>
+            <a href="articles.html">Articles</a>
+            <a class="active" href="chat.html">Chat</a>
+            <a href="register.html">Register</a>
+            <a href="aboutus.html">About us</a>
+        </div>
+    </div>
+
+    <div class="top-box2">
+        <a class="articles-h" href="main.page.html">Home     >   </a>
+        <a class="chosen" class="articles-h" href="aboutus.html">About us</a>
+    </div>
+
+    <div class="chat-text">About us</div>
+
+    <nav class="mx-7">
+        <div class="nav nav-tabs bg-secondary" id="nav-tab" role="tablist">
+            <button class="nav-link  active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-about" aria-selected="true">Tab 1</button>
+            <button class="nav-link " id="nav-text-tab" data-bs-toggle="tab" data-bs-target="#nav-text" type="button" role="tab" aria-controls="nav-social" aria-selected="false">Tab 2</button>
+            <button class="nav-link " id="nav-picture-tab" data-bs-toggle="tab" data-bs-target="#nav-picture" type="button" role="tab" aria-controls="nav-projects" aria-selected="false">Tab 3</button>
+            <button class="nav-link t" id="nav-last-tab" data-bs-toggle="tab" data-bs-target="#nav-last" type="button" role="tab" aria-controls="nav-surprise" aria-selected="false">Tab 4</button>
+        </div>
+    </nav>
+    <div class="tab-content bg-secondary text-light mx-7 p-3" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+            <img class="art-img " src="images/netflix.png">
+
+            <p class="img-text">
+
+                Netflix, Inc. is an American content platform and production company headquartered in Los Gatos, California. Netflix was founded in 1997 by Reed Hastings and Marc Randolph in Scotts Valley, California. The company's primary business is a subscription-based
+                streaming service offering online streaming from a library of films and television series, including those produced in-house.[9] In January 2021, Netflix reached 203.7 million subscribers, including 73 million in the United States.[10][11]
+                It is available worldwide except in the following: mainland China (due to local restrictions), Syria, North Korea, and Crimea (due to US sanctions). It was reported in 2020 that Netflix's operating income is $1.2 billion.[12] The company
+                has offices in France, Brazil, the Netherlands, India, Japan, South Korea, and the United Kingdom.[13] Netflix is a member of the Motion Picture Association (MPA), producing and distributing content from countries all over the globe.
+
+
+            </p>
+        </div>
+        <div class="tab-pane fade" id="nav-text" role="tabpanel" aria-labelledby="nav-text-tab">
+            <p>some text</p>
+        </div>
+        <div class="tab-pane fade" id="nav-picture" role="tabpanel" aria-labelledby="nav-picture-tab">
+            <p>some text again</p>
+        </div>
+        <div class="tab-pane fade" id="nav-last" role="tabpanel" aria-labelledby="nav-last-tab">
+            <div class="text-center">
+                <img src="images/thanks.jpg" class="img-fluid w-50" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class=" mx-7 my-4 ">
+        <h5>Contacts</h5>
+    </div>
+
+    <div class="mx-7 pb-5">
+        <div class="row">
+            <div class="col-5">
+                <div id="map"></div>
+            </div>
+
+
+            <div class="col-4 ms-5 ">
+                <h6>Address:</h6>
+                <div>Latvia, Jurmala</div>
+                <h6 class="mt-3 ">Email: </h6>
+                <div>anna@gmail.com</div>
+                <h6 class="mt-3 ">Phone:</h6>
+                <div>+371 29820126</div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div>
+
+
+        <footer class="main-footer "> &#169; some footer information
+        </footer>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBkrjVTGFQ4Sc7gNBoP0sBZvyjJIS9m6Y&callback=initMap&libraries=&v=weekly" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="js/map.js "></script>
+</body>
+
+</html>

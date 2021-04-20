@@ -38,3 +38,15 @@ p {
 .text-secondary {
     color: gray;
 }
+
+.nav-img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
