@@ -15,8 +15,8 @@ $('#send-message').submit(function(event) {
         const mins = d.getMinutes();
         const newTextBox = `
     <li>
-        <div class="card bg-secondary text-light">
-            <div class="card-header fs-5 text-dark">
+        <div class="card bg-light text-secondery"> 
+            <div class="card-header fs-6 text-secondery">
                 <span id="name" class="me-5">${username}</span>
                     <span id="date">${day}.${month}.${year} ${hour}:${mins}</span>
                 </div>

@@ -245,7 +245,12 @@ body {
 
 .articles-h {
     text-decoration: none;
-    color: blueviolet;
+    color: black;
+}
+
+.chosen {
+    text-decoration: underline;
+    color: black;
 }
 
 .top-box {
