@@ -4,4 +4,33 @@
     list-style-type: none;
     padding: 10px;
     background-color: blanchedalmond;
+    position: relative;
+}
+
+p {
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white
+}
+
+.top-box2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.articles-h {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.chosen {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.chat-text {
+    margin-left: 5px;
+    padding-top: 5px;
+    font-size: 18px;
 }

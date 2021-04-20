@@ -3,9 +3,9 @@ $('#send-message').submit(function(event) {
     const username = $('#username-input').val();
     const message = $('#message-input').val();
     if ($('#username-input').val() === '') {
-        alert('Enter username!')
+        alert('Please enter username!')
     } else if ($('#message-input').val() === '') {
-        alert('Enter message!')
+        alert('Pleaase enter message!')
     } else {
         const d = new Date();
         const day = d.getDate();
@@ -34,8 +34,3 @@ $('#send-message').submit(function(event) {
         $('#message-input').val('');
     }
 });
-
-$('.row-sm-image img').hover(function() {
-    const source = $(this).attr('src');
-    $('.active img').attr('src', source);
-})
