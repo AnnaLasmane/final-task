@@ -197,10 +197,9 @@ img {
 }
 
 .text-in-middle {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-    padding-bottom: 20px;
+    margin-left: 20px;
+    ;
+    padding-bottom: 10px;
 }
 
 .article-container {
