@@ -24,3 +24,13 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+
+function matchPassword() {
+    let pw1 = document.getElementById("pwd");
+    let pw2 = document.getElementById("pwd2");
+    if (pw1 != pw2) {
+        alert("Passwords did not match");
+    } else {
+        alert("Password created successfully");
+    }
+}
