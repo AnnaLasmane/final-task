@@ -34,3 +34,11 @@ function matchPassword() {
         alert("Password created successfully");
     }
 }
+
+function verifyPassword() {
+    let pw = document.getElementById("pwd").value;
+    if (pw.length < 8) {
+        document.getElementById("message").innerHTML = "**Password length must be atleast 8 characters";
+        return false;
+    }
+};

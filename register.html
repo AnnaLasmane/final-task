@@ -31,7 +31,7 @@
 
     </div>
 
-    <form>
+    <form onsubmit="return verifyPassword()">
         <p>Register</p>
         <div class="ops">
             <input type="text" class="form-control" placeholder="Username*" id="validationDefault01" required>
@@ -39,7 +39,7 @@
         <div class="ops">
 
             <input type="password" id="pwd" name="pwd" placeholder="Password*" pattern="(?=.*\d)(?=.{8,}" title="Must be at least 8 or more characters">
-        </div>
+            <span id="message" style="color:red"> </span></div>
         <div class="ops">
 
             <input type="password" id="pwd2" name="pwd" placeholder="Retype password*" pattern="(?=.*\d)(?=.{8,}" title="Must be at least 8 or more characters">
